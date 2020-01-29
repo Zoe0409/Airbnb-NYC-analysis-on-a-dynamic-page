@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import matplotlib.pyplot
+import matplotlib.pyplot as plt
 
 @st.cache
 def get_data():
