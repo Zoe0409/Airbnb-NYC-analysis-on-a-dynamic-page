@@ -54,8 +54,6 @@ From Adrien Treuille, the co-founder of Streamlit: https://towardsdatascience.co
 
 Streamlit API documentation: https://streamlit.io/docs/api.html
 
-Streamlit tutorial: https://streamlit.io/docs/tutorial2/
-
 Streamlit demo video: https://youtu.be/B2iAodr0fOo
 
 Airbnb NYC listings data (unofficial): http://data.insideairbnb.com/united-states/ny/new-york-city/2019-09-12/visualisations/listings.csv
