@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import matplotlib.pyplot
 
 @st.cache
 def get_data():
@@ -76,7 +77,6 @@ def get_availability(show_exp, neighborhood):
 st.table(get_availability(show_exp, neighborhood))
 st.write("At 169 days, Brooklyn has the lowest average availability. At 226, Staten Island has the highest average availability.\
     If we include expensive listings (price>=$200), the numbers are 171 and 230 respectively.")
-st.markdown("_**Note:** There are 18431 records with `availability_365` 0 (zero), which I've ignored._")
 
 df.query("availability_365>0").groupby("neighbourhood_group")\
     .availability_365.mean().plot.bar(rot=0).set(title="Average availability by neighborhood group",
