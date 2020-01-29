@@ -45,3 +45,19 @@ Use **st.button** to create a button
 ## Applications
 
 Check out the source code and application website to dig out more!
+
+## References and links
+
+Full code of the Streamlit app created for this tutorial: https://github.com/shaildeliwala/experiments/blob/master/streamlit.py
+
+From Adrien Treuille, the co-founder of Streamlit: https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace
+
+Streamlit API documentation: https://streamlit.io/docs/api.html
+
+Streamlit tutorial: https://streamlit.io/docs/tutorial2/
+
+Streamlit demo video: https://youtu.be/B2iAodr0fOo
+
+Airbnb NYC listings data (unofficial): http://data.insideairbnb.com/united-states/ny/new-york-city/2019-09-12/visualisations/listings.csv
+
+Plotly histogram documentation: https://plot.ly/python/histograms/
